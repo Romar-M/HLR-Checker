@@ -141,9 +141,9 @@ API-ключ хранится **в отдельном файле `config.json`**
 | `import/` | Сюда программа сохраняет обработанные файлы (то же имя) |
 
 при изменении наименования папок необходимо так подправить в коде:
- `main.py` 
-EXPORT_DIR_NAME = "export"
-IMPORT_DIR_NAME = "import"
+ > `main.py` 
+> EXPORT_DIR_NAME = "export"
+> IMPORT_DIR_NAME = "import"
 
 ---
 
